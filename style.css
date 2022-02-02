@@ -4,6 +4,18 @@ body, html{
 	overflow-y: hidden;
 }
 
+#headline {
+	/* background-color: rgb(12, 10, 10); */
+	color: red;
+	overflow: hidden;
+	margin: 0;
+	height: 60px;
+	font-size: 14px; 
+	justify-content: center;
+	align-items: center;
+	background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)
+}
+
 
 /* SOCIAL PANEL CSS */
 .social-panel-container {
@@ -113,7 +125,7 @@ body, html{
 
 .floating-btn {
 	border-radius: 26.5px;
-	background-color: #001F61;
+	background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
 	border: 1px solid #001F61;
 	box-shadow: 0 16px 22px -17px #03153B;
 	color: #fff;
