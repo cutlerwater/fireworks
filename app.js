@@ -153,7 +153,24 @@ function windowResized(){
 	ctx.fillRect(0, 0, width, height);
 }
 
+const button2 = document.querySelector("#button2");
+const icon = document.querySelector("#button2 > i");
+const audio = document.querySelector("audio");
 
+button2.addEventListener("click", () => {
+	if (audio.paused) {
+	  audio.volume = 1;
+	  audio.play();
+	  icon.classList.remove('fa-volume-up');
+	  icon.classList.add('fa-volume-mute');
+	  
+	} else {
+	  audio.pause();
+	  icon.classList.remove('fa-volume-mute');
+	  icon.classList.add('fa-volume-up');
+	}
+	button2.classList.add("fade");
+  });
 
 // SOCIAL PANEL JS
 const floating_btn = document.querySelector('.floating-btn');

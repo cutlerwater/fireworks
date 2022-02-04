@@ -16,6 +16,46 @@ body, html{
 	background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)
 }
 
+audio {
+	display: none;
+  }
+
+  #button2 {
+	font-size: 16px;
+	color: #eee;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50px;
+	padding: 15px;
+	border: none;
+	border-radius: 2px;
+	outline: none;
+	background: rgba(115, 67, 167, 0.8);
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	opacity: 0.8;
+	cursor: pointer;
+	transition: all 0.4s ease-out;
+  }
+  
+  #
+  #button2.fade:hover {
+	opacity: 0.1;
+  }
+  
+  .fade {
+	opacity: 0.1;
+	top: 0;
+	left: 0;
+	transform: translate(0, 0);
+  }
+  
+  #tip {
+	color: white;
+	font-size: 14px;
+	font-family: "Helvetica Neue",
+  }
 
 /* SOCIAL PANEL CSS */
 .social-panel-container {
